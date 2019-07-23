@@ -22,7 +22,7 @@ namespace Config
             /// <summary>
             /// 滑条属性名称
             /// </summary>
-            public System.Collections.Generic.List<string> SliderProperties { get; set; }
+            public System.Collections.Generic.List<(string name, float min, float max, float def)> SliderProperties { get; set; }
             /// <summary>
             /// 勾选属性
             /// </summary>

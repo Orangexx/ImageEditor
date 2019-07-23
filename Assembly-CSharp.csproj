@@ -72,11 +72,15 @@
     <Compile Include="Assets\Scripts\Configs\Materials.cs" />
     <Compile Include="Assets\Scripts\Configs\MaterialsCustom.cs" />
     <Compile Include="Assets\Scripts\EditorControl.cs" />
-    <Compile Include="Assets\Scripts\MaterialProSlider.cs" />
     <Compile Include="Assets\Scripts\PostEffectsCore.cs" />
+    <Compile Include="Assets\Scripts\UI\MaterialBtn.cs" />
+    <Compile Include="Assets\Scripts\UI\MaterialProSlider.cs" />
+    <Compile Include="Assets\Scripts\UI\MaterialProToggle.cs" />
     <Compile Include="Assets\Simple UI\Samples\IconPreview.cs" />
-    <None Include="Assets\Resources\Materials\BSC.shader" />
+    <None Include="Assets\Shader\PostEffectDeafult.cginc" />
+    <None Include="Assets\Shader\BSC.shader" />
     <None Include="Assets\Simple UI\Fonts\OFL.txt" />
+    <None Include="Assets\Shader\Blur.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Unity Workspace/Projects/ImageEditor/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

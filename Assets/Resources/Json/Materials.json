@@ -3,19 +3,45 @@
     "id": 1,
     "Name": "BSC",
     "SliderProperties": [
-      "B",
-      "S",
-      "C"
+      {
+        "Item1": "B",
+        "Item2": 0.0,
+        "Item3": 3.0,
+        "Item4": 1.0
+      },
+      {
+        "Item1": "S",
+        "Item2": 0.0,
+        "Item3": 3.0,
+        "Item4": 1.0
+      },
+      {
+        "Item1": "C",
+        "Item2": 0.0,
+        "Item3": 3.0,
+        "Item4": 1.0
+      },
+      {
+        "Item1": "_Gamma",
+        "Item2": 0.0,
+        "Item3": 3.0,
+        "Item4": 1.0
+      }
     ],
-    "ToggleProperties": []
+    "ToggleProperties": [
+      "_Gray"
+    ]
   },
   {
-    "id": 1,
-    "Name": "BSC",
+    "id": 2,
+    "Name": "Blur",
     "SliderProperties": [
-      "B",
-      "S",
-      "C"
+      {
+        "Item1": "_BlurOffset",
+        "Item2": 0.0,
+        "Item3": 0.5,
+        "Item4": 0.0
+      }
     ],
     "ToggleProperties": []
   }

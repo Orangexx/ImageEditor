@@ -67,19 +67,10 @@ public class PostEffectsCore : MonoSingleton<PostEffectsCore>
     public Texture UpdateImage(RenderTexture RT,Material material)//BSCshader更新
     {
         RenderTexture Disttexture = RenderTexture.GetTemporary(RT.width, RT.height, 0);
-        //弃用，大量使用RT时，内存爆炸RenderTexture Disttexture = new RenderTexture(texture.width, texture.height, 0);
-        //弃用，DestroyImmediate(Disttexture);
         Graphics.Blit(RT, Disttexture, material);
         RT = Disttexture;
-        //Debug.Log(Disttexture == null);
         int width = Disttexture.width;
         int height = Disttexture.height;
-        //Viewtexture = null;
-        //Viewtexture = new Texture2D(width, height, TextureFormat.ARGB32, false);
-        //RenderTexture.active = Disttexture;
-        //Viewtexture.ReadPixels(new Rect(0, 0, width, height), 0, 0);
-        //Viewtexture.Apply();
-        //RenderTexture.active = null;
         Resources.UnloadUnusedAssets();
         return Disttexture;
 
